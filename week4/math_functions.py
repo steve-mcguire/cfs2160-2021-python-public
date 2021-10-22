@@ -1,3 +1,7 @@
+#!/usr/bin/python3
+__author__  = "Steve McGuire"
+__contact__ = "s.mcguire@hud.ac.uk"
+
 # simple addition, ads two args (x and y), performs the addition and returns the result.
 def addition(x, y):
     result = x + y

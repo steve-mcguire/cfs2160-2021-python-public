@@ -1,3 +1,7 @@
+#!/usr/bin/python3
+__author__  = "Steve McGuire"
+__contact__ = "s.mcguire@hud.ac.uk"
+
 create a function that takes in number as an input, checks to see if it is odd or even and then returns the result
 
 Create a function that takes a temprature in c and converts to f and then returns the result

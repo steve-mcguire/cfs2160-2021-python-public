@@ -1,3 +1,7 @@
+#!/usr/bin/python3
+__author__  = "Steve McGuire"
+__contact__ = "s.mcguire@hud.ac.uk"
+
 
 def c_to_f(c):
     f = c * 9/5 + 32
