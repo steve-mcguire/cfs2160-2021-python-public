@@ -4,8 +4,8 @@ __contact__ = "s.mcguire@hud.ac.uk"
 
 create a function that takes in number as an input, checks to see if it is odd or even and then returns the result
 
-Create a function that takes a temprature in c and converts to f and then returns the result
+Create a function that takes a temperature in c and converts to f and then returns the result
 
 Create a function that take a speed as kph and converts to mph and then returns the result
 
-Cretab a function that takes a number and calulates the area of a circle and then returns the result
+Create a function that takes a number and calculates the area of a circle and then returns the result
