@@ -25,11 +25,11 @@ for bottle in range(10, 0, -1):
     for x in range(2):
         print(bottle, "green bottle" + pluralise(bottle) + " hanging on a wall,")
     print("And if 1 green bottle should accidentally fall,")
-    print("They'll be " + str(bottle - 1) + " green bottle" + pluralise(bottle) + " hanging on a wall.\n")
+    print("They'll be " + str(bottle - 1) + " green bottle" + pluralise(bottle - 1) + " hanging on a wall.\n")
 
 
 # with while loop, although we know how many time the loop needs to happen,
-#  e have a decision to make with regards to the printing of the number of bottles and them being pluralised.
+# we have a decision to make with regards to the printing of the number of bottles and them being pluralised.
 # decisions indeed.
 print("\n")
 print("With while loop")
@@ -40,5 +40,4 @@ while bottle >= 0:
         print(bottle, "green bottle" + pluralise(bottle) + " hanging on a wall,")
     print("And if 1 green bottle should accidentally fall,")
     print("They'll be " + str(bottle - 1) + " green bottle" + pluralise(bottle) + " hanging on a wall.\n")
-
     bottle -= 1
