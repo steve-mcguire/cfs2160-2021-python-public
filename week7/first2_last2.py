@@ -11,11 +11,14 @@ User input String: 'w'
 Expected Result : Empty String
 Hint: use string slicing and concatenation.
 '''
+
+
 def f2_and_l2(str):
     if len(str) < 2:
         return "Empty String"
     else:
         return  str[:2] + str[-2:]
+
 
 print(f2_and_l2("wa"))
 
