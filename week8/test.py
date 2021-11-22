@@ -1,13 +1,10 @@
-numbers = [7, 8, 120, 25, 44, 20, 27]
-even = []
-odd = []
-x = 0
-for number in numbers:
-    if number % 2 == 0:
-        even.append(number)
-    else:
-        odd.append(number)
+def func_my(lst):
+    num = lst[0]
+    for a in lst:
+        if a < num:
+            num = a
+    return num
 
-print(even, " - ", odd)
 
-#What would be the remaining items in the list 'num' after executing above code?
+print(func_my([1, 2, -8, 0]))
+
