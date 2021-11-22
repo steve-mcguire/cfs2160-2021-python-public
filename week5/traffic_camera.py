@@ -11,7 +11,7 @@ def print_stats(l):
 for x in range(5):
     reading = input("Enter a reading")
     speed = int(reading[:-1])
-    v_type = reading[-1]
+    v_type = reading[-1:]
     if v_type == "c":
         c.append(speed)
     elif v_type == "b":

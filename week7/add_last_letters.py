@@ -12,3 +12,36 @@ Expected Output: si (length is less than 3. Leave it unchanged)
 Hint: use str1[-3:] to check the ending of the stirng for ‘ing’.
 
 '''
+import copy
+
+
+def ing_ly(str):
+    if len(str) >= 3:
+        if str[-3:] == "ing":
+            return str + "ly"
+        else:
+            return str + "ing"
+    return str
+
+list_of_words = ["toast", "toasting", "steve", "bo", "testing", "cfs2160"]
+for word in list_of_words:
+    print(ing_ly(word))
+
+n = 300
+m = copy.deepcopy(n)
+print(id(n))
+print(m is n)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
