@@ -12,7 +12,7 @@ def do_sum(exp):
             elif operand == "-":
                 return value_1 - value_2
             else:
-                raise ValueError("Your operand is not valid")
+                raise ValueError("Your operand is not valid") # needs work
 
         except ValueError:
             raise ValueError("Your values are not all numbers")
