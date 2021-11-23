@@ -1,27 +1,29 @@
 def do_sum(exp):
     if len(exp) != 3:
-        raise ValueError("Your input does not have three characters")
+        raise ValueError("You sum is not in the correct format")
     else:
         try:
-            # perform the sum
-            x = int(exp[0])
-            y = int(exp[2])
+            # do the thing if interest
+            value_1 = float(exp[0])
+            value_2 = float(exp[2])
             operand = exp[1]
             if operand == "+":
-                return x + y
+                return value_1 + value_2
             elif operand == "-":
-                return x - y
+                return value_1 - value_2
             else:
-                raise ValueError("Your operand is not recognised")
+                raise ValueError("Your operand is not valid")
+
         except ValueError:
-            raise ValueError("Your input contains illegal characters")
+            raise ValueError("Your values are not all numbers")
 
 
 while True:
+    user_input = input("Please enter your sum").split(" ")
     try:
-        user_input = input("Enter your sum").split(" ")
         print(do_sum(user_input))
     except ValueError as ve:
         print(ve)
 
+print("PROGRAMME COMPLETED OK")
 
